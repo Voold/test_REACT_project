@@ -1,0 +1,28 @@
+.CostForm_block{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.CostForm_input{
+    border-radius: 10px;
+    height: 7vh;
+    max-height: 35px;
+    width: 63%;
+    font-size: 19px;
+    font-weight: 900;
+}
+
+.CostForm_but{
+    background-color: slateblue;
+    height: 5vh;
+    max-height: 60px;
+    width: 19%;
+    min-width: 120px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.CostForm_input, h1{
+    margin-bottom: 5px;
+}
