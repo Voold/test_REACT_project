@@ -1,10 +1,14 @@
 import CostItem from "./CostItem.js";
 import "./CostCont.css"
 import Card from "../UI/Card.js";
+import CostFilter from "./CostFilter/CostFilter.js";
 
 const CostCont = (props) => {
     return(
         <Card className="CostCont">
+
+            <CostFilter />
+
             <CostItem 
             date={props.data[0].date} 
             description = {props.data[0].description} 

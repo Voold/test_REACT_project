@@ -1,0 +1,51 @@
+.year_stat{
+    background-color: yellow;
+    height: 28vh;
+    max-height: 400px;
+    width: 951%;
+    margin: 10px auto;
+    border-radius: 30px;
+    border: 4px solid brown;
+    /* display: flex; */
+    /* max-width: 1200px; */
+}
+
+.year_selector{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    height: 80px;
+}
+
+.name_year_selector{
+    width: 80%;
+    line-height: 5px;
+    font-size: 25px;
+}
+
+.name_year_selector h1 {
+    margin-left: 40px;
+}
+
+.year_list{
+
+    width: 20%;
+
+}
+
+.year_selector_list{
+    width: 80%;
+    height: 60%;
+    margin: 15px 0;
+    border-radius: 15px;
+    font-weight: 1000;
+    text-align: center;
+    font-size: 33px;
+}
+
+/* .month_stat{
+    display: inline-block;
+    border: 1px solid #000;
+    width: 3px;
+    height: 100%;
+} */
