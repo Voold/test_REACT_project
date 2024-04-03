@@ -7,7 +7,7 @@ const CostForm = (props) =>{
     // const [date, setDate] = useState('');
 
     const [userInput, setUserInput]= useState({
-        name: '',
+        description: '',
         amount: '',
         date: ''
     })
@@ -21,7 +21,7 @@ const CostForm = (props) =>{
         setUserInput((previousState) => {
             return{
                 ...previousState,
-                name: event.target.value
+                description: event.target.value
             }
         })
     };
@@ -45,7 +45,7 @@ const CostForm = (props) =>{
     const submitHandler = (event) => {
         event.preventDefault();
         const costData = {
-            name:userInput.name,
+            description:userInput.description,
             amount:userInput.amount,
             date:new Date(userInput.date),
         };
@@ -54,7 +54,7 @@ const CostForm = (props) =>{
         // userInput.amount = '';
         // userInput.date = '';
         setUserInput({
-                name: '',
+                description: '',
                 amount: '',
                 date: ''
         })
@@ -65,7 +65,7 @@ const CostForm = (props) =>{
         <form onSubmit={submitHandler}>
             <div className="CostForm_block">
                 <h1>Название</h1>
-                <input type="text" className="CostForm_input" value={userInput.name} onChange={nameChangeHandler}/>
+                <input type="text" className="CostForm_input" value={userInput.description} onChange={nameChangeHandler}/>
             </div>
             <div className="CostForm_block">
                 <h1>Сумма</h1>

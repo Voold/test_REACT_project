@@ -2,12 +2,13 @@
     background-color: yellow;
     height: 28vh;
     max-height: 400px;
-    width: 951%;
+    width: 95%;
     margin: 10px auto;
     border-radius: 30px;
     border: 4px solid brown;
-    /* display: flex; */
-    /* max-width: 1200px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .year_selector{
@@ -43,9 +44,37 @@
     font-size: 33px;
 }
 
-/* .month_stat{
+.month_stat{
     display: inline-block;
+    width: 4%;
+    height: 90%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.month_stat .column{
+    height: 90%;
     border: 1px solid #000;
-    width: 3px;
-    height: 100%;
-} */
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: end;
+    overflow: hidden;
+}
+
+.month_stat .column .column_value{
+    height: 0%;
+    width: 100%;
+    background-color: chocolate;
+}
+
+.v10{
+    height: 10%;
+}
+
+.month_stat h6{
+    display: block;
+    margin-top: 2px;
+}
